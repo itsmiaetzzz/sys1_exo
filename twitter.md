@@ -27,7 +27,13 @@ Host: twitter.com
 
 
 ```
-Le password est affiché à la partie à côté de * password:*, que l'on entrera ensuite sur l'input du site : Entrer le mot de passe . 
+Nous remarquerons ensuite qu'il y a Authorization : Basic + une série en Bite64 Bite64 : c'est une sérue de chiffre et de lettre précédé par un == ou un = .
+
+Nous allons donc devoir decode la série Bite64 sur le site Base64[https://www.base64decode.org/].
+
+Le password est affiché à la partie decode , que l'on entrera ensuite sur l'input du site : Entrer le mot de passe .
+
+
 
 
 
